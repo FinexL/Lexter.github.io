@@ -108,6 +108,7 @@ h2{
   padding-top: 100px;
   text-align: center;
   color: #FF7040;
+  font-weight: 700;
 }
 
 h3{
@@ -197,6 +198,7 @@ table{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  height: 100%;
 }
 .section{
   display: block;
@@ -230,10 +232,11 @@ table{
   width: 350px;
 }
 .card{
- 
+  
   color:#FF7040;
   background-color: rgba(88, 74, 159, 0.2);
-  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5)
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5);
+ 
 
 }
 .card-img-top{
