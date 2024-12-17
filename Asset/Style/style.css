@@ -17,7 +17,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: linear-gradient(135deg, #111, #444);
+    background: rgba(13, 6, 14, 1);
     color: #ffffff;
     overflow-y: auto;
     transition: transform 0.3s ease;
@@ -240,9 +240,10 @@
 
   }
   .card-img-top{
-    padding: 5%;
-    width: 260px;
-    height: 260px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
   }
   .initial-text {
     position: absolute;
@@ -279,6 +280,21 @@
   .wideimg{
     width: 350px;
     height: 200px;
+  }
+
+  .event-card {
+    background-color: rgba(88, 74, 159, 0.2);
+    color: #FF7040;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5);
+    border: none;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .event-card:hover {
+    transform: translateY(-10px);
   }
 
   .footer{
